@@ -1,0 +1,47 @@
+.container{
+    margin:1%;
+    padding:5%;
+}
+
+
+.row{
+    display: flex;
+    margin:2%;
+    padding:5%;
+    justify-content: space-evenly;
+}
+
+
+.col-1{
+    width:20%;
+    text-align: right;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    word-wrap:wrap;
+    border-right: 5px solid black;
+}
+
+.col-2{
+    width:75%
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 43%;
+    margin:1%;
+    padding:1%;
+    border:1px solid black;
+}
+
+.project img{
+    width:100%;
+}
+
+.contact-section a{
+    font-size: 1.5rem;
+    margin: 1
+}
